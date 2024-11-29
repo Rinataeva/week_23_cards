@@ -9,7 +9,6 @@ const HeaderWrapper = styled.div`
   padding: 0.5rem 1rem;
   background-color: #213547;
   color: #fafafa;
-  font-size: 1.5rem;
 `;
 export default function Header() {
   const [now, setNow] = useState(new Date());
@@ -17,7 +16,7 @@ export default function Header() {
 
  
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const targetDate = new Date("2024-11-29T00:00:00"); 
+  const targetDate = new Date("2024-12-05T00:00:00"); 
 
   useEffect(() => {
     
