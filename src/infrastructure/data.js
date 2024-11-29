@@ -6,6 +6,7 @@ export const data = [
     speed: "до 10 Мбит/сек",
     description: "Объем включенного трафика не ограничен",
     isBiggerCard: false,
+    color: "lightblue",
   },
   {
     id: "2",
@@ -14,6 +15,7 @@ export const data = [
     speed: "до 50 Мбит/сек",
     description: "Объем включенного трафика не ограничен",
     isBiggerCard: false,
+    color: "lightgreen",
   },
   {
     id: "3",
@@ -22,6 +24,7 @@ export const data = [
     speed: "до 100 Мбит/сек",
     description: "Объем включенного трафика не ограничен",
     isBiggerCard: true,
+    color: "pink",
   },
   {
     id: "4",
@@ -30,8 +33,9 @@ export const data = [
     speed: "до 200 Мбит/сек",
     description: "Объем включенного трафика не ограничен",
     isBiggerCard: false,
+    color: "darkgray",
   },
-]
+];
 // export const extradata = {
 //   choose: "Вы выбрали",
 //   choosen: "Выбрано",

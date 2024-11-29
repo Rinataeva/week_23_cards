@@ -11,8 +11,8 @@ export function CardSection() {
         {data.map((card) => {
           const Wrapper = card.isBiggerCard ? BiggerCardWrapper : CardWrapper;
           return (
-            <Wrapper key={card.id} {...card} color={getRandomColor()}>
-              <Card {...card} color={getRandomColor()} />{" "}
+            <Wrapper key={card.id} {...card}>
+              <Card {...card} />
             </Wrapper>
           );
         })}
@@ -21,6 +21,6 @@ export function CardSection() {
   );
 }
 
-function getRandomColor() {
-  return "#" + Math.floor(Math.random() * 16777215).toString(16);
-}
+// function getRandomColor() {
+//   return "#" + Math.floor(Math.random() * 16777215).toString(16);
+// }
