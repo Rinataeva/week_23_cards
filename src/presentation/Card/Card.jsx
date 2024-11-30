@@ -4,7 +4,6 @@ import Button from "../../presentation/components/Button/Button";
 import "./Card.css";
 import Price from "./Price.jsx";
 
-// Corrected styled component syntax
 
 export default function Card(props) {
   const [contentType, setContentType] = useState(null);
@@ -26,7 +25,7 @@ export default function Card(props) {
         <div className="card-description">{description}</div>
 
         <Button
-          isActive={Boolean(contentType)} // Corrected boolean check
+          isActive={Boolean(contentType)} 
           onClick={() => handleClick("Отличный выбор! " + title + " ")}
         >
           <span className="card-button">Выбрать</span>

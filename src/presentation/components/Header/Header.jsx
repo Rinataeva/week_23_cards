@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
 
+
 const HeaderWrapper = styled.div`
   display: flex;
   justify-content: space-between;
@@ -41,7 +42,7 @@ export default function Header() {
     if (diff > 0) {
       setTimeRemaining(`${days} days ${hours} hours ${minutes} minutes`);
     } else {
-      setTimeRemaining("Countdown ended");
+      setTimeRemaining("Time's up!");
     }
   }, [now, targetDate]);
 
